@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+    <button onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Hello, I'm Developer 👋</h2>
+    <p>This is my optimized web application</p>
+    <button onclick="showMessage()">Hire Me</button>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+        <div class="card">Portfolio Website</div>
+        <div class="card">To-Do App</div>
+        <div class="card">Weather App</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <br>
+    <button onclick="submitForm()">Send</button>
+</section>
+
+<footer>
+    <p>© 2026 Smart Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
